@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1569907986 source:d:\programming\codeblocks\projects\mini-project\main.c
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	<stdlib.h>
+
+1570126554 source:c:\projects\mini-project\main.c
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	<stdlib.h>
+
