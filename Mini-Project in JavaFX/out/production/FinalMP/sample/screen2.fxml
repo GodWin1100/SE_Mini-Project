@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="600.0" maxWidth="1000.0" minHeight="600.0" minWidth="1000.0" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller2">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="445.0" layoutY="14.0" text="Mini Project Company" textAlignment="CENTER" textFill="RED" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="System Bold Italic" size="41.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="91.0" prefHeight="36.0" prefWidth="1013.0" text="Create New Account" textFill="#303ccf" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="91.0">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="95.0" text="First Name :" AnchorPane.topAnchor="200.0" />
+      <Label layoutX="350.0" layoutY="95.0" text="Middle Name :" AnchorPane.topAnchor="200.0" />
+      <Label layoutX="650.0" layoutY="95.0" text="Last Name :" AnchorPane.topAnchor="200.0" />
+      <TextField fx:id="tffname" layoutX="120.0" layoutY="196.0" prefWidth="200.0" promptText="First Name" AnchorPane.topAnchor="196.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <TextField fx:id="tfmname" layoutX="435.0" layoutY="196.0" prefWidth="200.0" promptText="Middle Name">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <TextField fx:id="tflname" layoutX="719.0" layoutY="196.0" prefWidth="200.0" promptText="Last Name">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <Label layoutX="50.0" layoutY="265.0" text="Contact No. :" AnchorPane.topAnchor="265.0" />
+      <Label layoutX="350.0" layoutY="265.0" text="Email ID :" />
+      <Label layoutX="774.0" layoutY="265.0" text="Age :" />
+      <TextField fx:id="tfcontact" layoutX="126.0" layoutY="261.0" prefWidth="210.0" promptText="Contact Number" AnchorPane.topAnchor="261.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <TextField fx:id="tfemail" layoutX="407.0" layoutY="261.0" prefWidth="350.0" promptText="Email ID" AnchorPane.topAnchor="261.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <TextField fx:id="tfage" layoutX="808.0" layoutY="261.0" prefWidth="50.0" promptText="Age">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <TextField fx:id="gender" layoutX="150.0" layoutY="302.0" promptText="Gender" />
+      <DatePicker fx:id="dob" layoutX="468.0" layoutY="302.0" promptText="DD/MM/YYYY" />
+      <Label layoutX="85.0" layoutY="326.0" text="User Name :" AnchorPane.topAnchor="355.0" />
+      <Label layoutX="500.0" layoutY="345.0" text="Password :" AnchorPane.topAnchor="355.0" />
+      <TextField fx:id="tfuser" layoutX="157.0" layoutY="326.0" prefWidth="200.0" promptText="Create User Name" AnchorPane.topAnchor="351.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <TextField fx:id="tfpw" layoutX="563.0" layoutY="341.0" prefWidth="200.0" promptText="Create Password" AnchorPane.topAnchor="351.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <Button fx:id="submit" alignment="CENTER" layoutX="447.0" layoutY="460.0" mnemonicParsing="false" onAction="#create" text="Create">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="alert" alignment="CENTER" layoutX="350.0" layoutY="400.0" prefWidth="300.0" textFill="RED">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="98.0" layoutY="392.0" text="Gender :" AnchorPane.topAnchor="306.0" />
+      <Label layoutX="386.0" layoutY="306.0" text="Date Of Birth :" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller1">
+    <children>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="445.0" layoutY="14.0" text="Mini Project Company" textAlignment="CENTER" textFill="RED" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <font>
+                <Font name="System Bold Italic" size="30.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutY="151.0" prefHeight="36.0" prefWidth="1013.0" text="Modify" textFill="#303ccf" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="60.0">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+      <Button layoutX="55.0" layoutY="220.0" mnemonicParsing="false" onAction="#moage" prefWidth="100.0" text="Age" />
+      <Button layoutX="55.0" layoutY="270.0" mnemonicParsing="false" onAction="#moemail" prefWidth="100.0" text="Email ID" />
+      <Button layoutX="55.0" layoutY="320.0" mnemonicParsing="false" onAction="#mocontact" prefWidth="100.0" text="Contact No." />
+      <TextField fx:id="motext" layoutX="300.0" layoutY="320.0" prefWidth="500.0" promptText="Modify Here" />
+      <Label alignment="CENTER" layoutX="486.0" layoutY="80.0" text="Press corresponding button to modify" textFill="#ee9b2d" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="110.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="55.0" layoutY="370.0" mnemonicParsing="false" onAction="#mopassword" prefWidth="100.0" text="Password" />
+      <Label fx:id="moprompt" alignment="CENTER" layoutX="486.0" layoutY="500.0" textFill="#f20a0a" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="295.0" layoutY="432.0" text="Current Password : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="cpw" layoutX="425.0" layoutY="430.0" prefWidth="200.0" promptText="Enter Password used for Login" />
+    </children>
+</AnchorPane>
