@@ -26,7 +26,20 @@ of Second Year (2019-20) of B.E. in Computer Engineering
 
 ---Mini Project in Java---
 
-  Employee Portal
-  ~Software :-
-  IntelliJ IDEA as IDE for JavaFx
-  MySQL for database
+    Employee Portal
+    ~Software :-
+    IntelliJ IDEA as IDE for JavaFx
+    MySQL for database
+    
+    ~Downloaded Libraries
+    From Gluon for FXML and Scene Builder
+    From JetBrains for kotlin library
+    
+    ~Description
+    New Employee can create it's account.
+    Employee can login and once login he/she can punch in or punch out.
+    Can modify his/her detail.
+    
+    ~Future Scope
+    Employee can request for leave through his/her portal
+    Senior Employee or Company login can view punching times of subordinate
