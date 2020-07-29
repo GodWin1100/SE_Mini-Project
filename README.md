@@ -11,31 +11,31 @@ Mini-Project is submitted for College Academic purpose in the subject of Data St
 of Second Year (2019-20) of B.E. in Computer Engineering 
 
 
----Mini Project in C---
+## ---Mini Project in C---
     
-    Music Playlist Organiser
-    ~Software :-
+   ### Music Playlist Organiser
+   #### ~Software :-
     Codeblocks as IDE for C.
     Textfile(notepad) for file operation.
 
-    ~Description
+   #### ~Description
     It's basically a normal music playlist organiser display.
     It can perform basic function like add in music database, display, create playlist.
     And in Create Playlist it can perform function like add music, swap position of music and even delete music from created playlist.
 
 
----Mini Project in Java---
+## ---Mini Project in Java---
 
-    Employee Portal
-    ~Software :-
+   ### Employee Portal
+   #### ~Software :-
     IntelliJ IDEA as IDE for JavaFx
     MySQL for database
     
-    ~Downloaded Libraries
+   #### ~Downloaded Libraries
     From Gluon for FXML and Scene Builder
     From JetBrains for kotlin library
     
-    ~Description
+   #### ~Description
     New Employee can create it's account.
     Employee can login and once login he/she can punch in or punch out.
     Can modify his/her detail.
